@@ -8,15 +8,7 @@ function timeDisplay() {
     let years = dateTime.getFullYear();
     let amPm = document.getElementById('am-pm');
 
-    if(hrs >= 12) {
-        amPm.innerHTML = "PM";
-    }else{
-        amPm.innerHTML = "AM";
-    }
-     
-    // if(hrs > 12){
-    //     hrs-=12;
-    // }
+    hrs >= 12 ? amPm.innerHTML = "PM" : amPm.innerHTML = "AM";
 
     if (hrs < 10) {
         hrs = "0" + hrs;
