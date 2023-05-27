@@ -3,13 +3,114 @@
     padding: 0px;
     margin: 0px;
 }
+
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: monospace;
     background-color: rgba(128, 128, 128, 0.459);
     padding: 0px;
     margin: 0px;
 }
-article {
+
+#container{
+    margin:  100px auto;
+    padding: 50px 0;
+}
+
+#container #digital-clock {
+    font-size: 200px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: flex;
+    margin: auto ;
+    width: fit-content;
+}
+
+#digital-clock .am-pm { color:rgba(0, 0, 0, 0.712)}
+
+#am-pm {
+    font-size: 50px;
+    margin-top: 110px;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 16px;
+    box-shadow: 0 0 30px black;
+    border-radius: 12px;
+    height: fit-content;
+} 
+
+#digital-clock #hours {
+    box-sizing: border-box;
+    width: 250px;
+    height: 300px;
+    margin: 5px 16px;
+    padding: 35px 0px;
+    background-color: rgba(0, 0, 0, 0.712);
+    box-shadow: 0 0 30px black;
+    border-radius: 12px;
+}
+
+#digital-clock #minutes{
+    box-sizing: border-box;
+    width: 250px;
+    height: 300px;
+    padding: 35px 0px;
+    margin: 5px 16px;
+    background-color: rgba(0, 0, 0, 0.712);
+    box-shadow: 0 0 30px black;
+    border-radius: 12px;
+}
+
+#digital-clock #seconds{
+    box-sizing: border-box;
+    width: 250px;
+    height: 300px;
+    margin: 5px 16px;
+    padding: 35px 0px;
+    background-color: rgba(0, 0, 0, 0.712);
+    box-shadow: 0 0 30px black;
+    border-radius: 12px;
+}
+
+#dateYear {
+    padding: 16px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin:  20px auto ;
+    background-color: rgba(0, 0, 0, 0.712);
+    width: 890px;
+    box-shadow: 0 0 30px black;
+    border-radius: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* article {
     width: 100%;
     top: 30%; 
     position: absolute;
@@ -28,4 +129,4 @@ article {
 #dateYear{
     font-size: 50px;
     margin-top: 20px;
-}
+} */
